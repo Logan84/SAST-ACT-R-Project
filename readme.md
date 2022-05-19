@@ -1,7 +1,13 @@
-
-To run the ACT-R Standalone extract the "ACT-R" folder from the zip archive
-and place it anywhere on your machine.  
-
+# Project Description
+This project looks at the Serial Addition/Subtraction Task (SAST). This task is made up of different single digit addition and subtraction problems presented in quick succession. The participants perform the problem presented to them. If the result is 10 or greater, they subtract 10 then give the result. If the result is less than 0, they add 10 and give the result. If both are false, they just present the result.
+Each problem is described in the following:
+1. Present a single digit for 200 ms
+2. Remove the stimulus for 200 ms
+3. Present a second digit for 200 ms
+4. Remove the stimulus for 200 ms
+5. Present an operator (+/-) 
+6. Wait for a result from the participant. 
+# Running ACT-R
 Then you just need to run the "run-act-r.command" script to start ACT-R and the
 ACT-R environment.  That script must be located in the same directory as the
 rest of the ACT-R files, but you may create an alias to it and put that
@@ -36,14 +42,8 @@ the application you should then open a browser and open the act-r.html file
 which is found in the ACT-R directory.  It will show two links.  One goes
 to the Environment tools and the other opens a viewer for the experiment
 windows created by the ACT-R AGI tools.
+# Running Python
 
-See the tutorial, reference manual, and environment manual for more details.
+# Running Experiment
 
-This distribution is built using Clozure Common Lisp (CCL) which is available
-at <http://clozure.com/>.  Clozure Common Lisp is distributed under the Apache
-license, and the license is included in the ccl_license folder in the docs 
-folder.
 
-If you have any questions or problems with this please let me know.
-
-Dan (db30@andrew.cmu.edu)
